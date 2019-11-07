@@ -22,25 +22,35 @@ body {
     float: left;
     font-size: 17px;
     padding: 5px;
-    border: 2px solid white;
+    margin: 3px;
+    border: 2px;
     border-radius: 10px;
-    width 
+    width: 5%;
+    background-color: rgba(138,43226,1, 0.5) 
 }
 
-/* .navright {
+.navright {
     float: right;
-} */
+}
 
 .holder {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
+    
     width: 100%;
-    background: grey;
+    background-color: grey;
     position: absolute;
     bottom: 30%;
 }
 
+
 .timer {
+    display: flex;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
     max-width: 100%;
     border: 1px solid rgba(160, 200, 100, 0.5);
     border-radius:20px;
