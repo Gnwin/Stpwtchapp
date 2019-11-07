@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+.navbar {
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.navcontainer {
+    width: 700px;
+    min-width: 80%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width 
+}
+
+/* .navright {
+    float: right;
+} */
+
+.holder {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    width: 100%;
+    background: grey;
+    position: absolute;
+    bottom: 30%;
+}
+
+.timer {
+    max-width: 100%;
+    border: 1px solid rgba(160, 200, 100, 0.5);
+    border-radius:20px;
+    background-color: aqua;;  
+}
+
+.holder > div:nth-child(1n) {
+    background-color: #96ceb4;	
+  }
+  
+  .holder > div:nth-child(3n) {
+    background-color: #88d8b0;
+  }
+  
+  .holder > div:nth-child(2n) {
+        background-color: #ff6f69;
+  }
+  
+  .holder > div:nth-child(4n) {
+        background-color: #ffcc5c;
